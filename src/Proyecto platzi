@@ -1,0 +1,10 @@
+Esta es una aplicacion echa con el curso de Java Spring
+DTO % objetos de dominio → Son objetos que hacen parte del contexto de la aplicación, en el caso de ejemplo seria el mercado.
+
+Servicios → Son los encargados que sirven como puente entre los controladores de la api y la capa de persistencia o el repositorio.
+
+Especificación de repositorios → Interfaces que definen las reglas del juego de los contratos que ha de cumplir la persistencia para intervenir entre los objetos de dominio y la base de datos.
+
+WEB → controladores de la API.
+
+PERSISTENCIA → Es la capa que tiene la obligación de interactuar con la base de datos, donde estaran los repositorios y los entities que son las clases que mapean y hacen las veces de las tablas que estan en la base de datos.
